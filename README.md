@@ -11,3 +11,6 @@ This repository contains Terraform code that demonstrates:
 - `variables.tf`: Variable definitions
 - `output.tf`: Output values
 - `provider.tf`: AWS provider setup
+
+About state file --
+Used S3 backend, where the state file will store, it will not visible in local.
